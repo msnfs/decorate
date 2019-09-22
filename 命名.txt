@@ -1,0 +1,10 @@
+首页   index
+新闻   news
+精英团队  team
+精英团队详情  team-show
+新闻详情  news-show
+案例赏析  case
+热装楼盘详情   estate
+匠心工艺      ingenuity
+品质服务      service
+热装楼盘   estate-s

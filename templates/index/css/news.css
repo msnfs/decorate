@@ -1,0 +1,398 @@
+body{
+	background: #f5f5f5;
+}
+.ne{
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+}
+.ne .news ul li{
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	padding-bottom: 30px;
+}
+.ne .news-a{
+	width: 14%;
+}
+.ne .news-b{
+	width: 84%;
+	padding: 5px 10px;
+	box-sizing: border-box;
+}
+.ne .news-b p:first-child{
+	margin-bottom: 0;
+}
+.ne .news-b p:nth-child(3){
+	color: #c69559;
+	font-size: 14px;
+	text-align: left;
+	margin-bottom: 0;
+	line-height: 28px;
+}
+.ne .news-b p:nth-child(4){
+	color: #999999;
+	font-size: 14px;
+	text-align: right;
+	margin-bottom: 0;
+	margin-top: -3px;
+}
+.ne-a{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin: 50px 0 80px;
+}
+.ne-a ul{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+.ne-a ul li{
+	width: auto;
+	display: inline-block;
+}
+.ne-a ul li a{
+	width: auto;
+	height: auto;
+	padding: 7px 15px;
+	background: #fff;
+	font-size: 16px;
+	color: #555555;
+	display: inline-block;
+	border-radius: 5px;
+	margin-right: 5px;
+	border: 1px solid #e6e6e6;
+	transition: 0.4s;
+	-webkit-transition: 0.4s;
+}
+.ne-a ul li a:hover{
+	background: #c69559;
+	color: #fff;
+	transition: 0.4s;
+	-webkit-transition: 0.4s;
+}
+#act2 a{
+	background: #c69559;
+	color: #fff;
+}
+.ne .news-c{
+	background: #fff;
+}
+.ne .news-c li{
+	border-bottom: 0;
+}
+.ne .news-c ul li p:first-child{
+	font-size: 16px;
+}
+.ne .news-c ul li p:nth-child(2){
+	margin-top: 5px;
+}
+.ne-b{
+	width: 100%;
+	height: auto;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+.ne-b p{
+	font-size: 24px;
+	color: #222;
+	display: inline-block;
+}
+.ne-b a{
+	color: #555;
+	font-size: 14px;
+	float: right;
+	transition: 0.4s;
+	-webkit-transition: 0.4s;
+	margin-top: 10px;
+}
+.ne-b a:hover{
+	color: #c69559;
+	transition: 0.4s;
+	-webkit-transition: 0.4s;
+	margin-top: 10px;
+}
+/*news-show*/
+.nes-a{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	padding: 100px;
+	margin-top: 30px;
+}
+.nes-b{
+	width: 100%;
+	height: auto;
+}
+.nes-b p:first-child{
+	color: #222;
+	font-size: 20px;
+}
+.nes-b p:nth-child(2){
+	color: #999999;
+	font-size: 14px;
+	margin-top: 20px;
+}
+.nes-b1{
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	color: #555;
+	font-size: 14px;
+	line-height: 28px;
+}
+.nes-b1 p{
+	color: #555;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+.nes-b1 img{
+	max-width: 90%;
+	display: block;
+	margin: 30px auto;
+}
+.nes-c{
+	width: 100%;
+	height: auto;
+	padding: 30px 100px 80px;
+	text-align: center;
+	position: relative;
+}
+.nes-c ul{
+	width: auto;
+	height: auto;
+	float: left;
+}
+.nes-c ul li{
+	color: #666;
+	font-size: 14px;
+	line-height: 28px;
+}
+.nes-c ul li a{
+	color: #666;
+	font-size: 14px;
+	transition: 0.4s;
+	-webkit-transition: 0.4s;
+}
+.nes-c ul li a:hover{
+	color: #c69559;
+	transition: 0.4s;
+	-webkit-transition: 0.4s;
+}
+.nes-c1{
+	background: #fff!important;
+	color: #555;
+	font-size: 16px;
+	border: 1px solid #e6e6e6;
+	padding: 8px 25px;
+	display: inline-block;
+	border-radius: 5px;
+	transition: 0.4s;
+	-webkit-transition: 0.4s;
+	position: absolute;
+	right: 50%;
+	transform:translate(48%,0);
+}
+.nes-c1:hover{
+	background: #c69559!important;
+	color: #fff;
+	transition: 0.4s;
+	-webkit-transition: 0.4s;
+}
+@media (max-width: 1400px){
+	.ne .news-a{
+		width: 16%;
+	}
+	.ne .news-b{
+		width: 82%;
+		padding: 5px 10px;
+		box-sizing: border-box;
+	}
+	.news-b p:nth-child(2){
+		line-height: 27px;
+		height: 54px;
+	}
+	.ne-b p{
+		font-size: 22px;
+	}
+}
+@media (max-width: 1200px){
+	.ne .news-a{
+		width: 19%;
+	}
+	.ne .news-b{
+		width: 79%;
+		padding: 5px 10px;
+		box-sizing: border-box;
+	}
+	.ne{
+		margin-top: 30px;
+	}
+	.ne-b{
+		margin-bottom: 20px;
+	}
+	.ne .news-c ul li p:first-child{
+		font-size: 14px;
+	}
+	.news-c ul li p:first-child span{
+		width: 5px;
+		height: 5px;
+	}
+	.ne .news-b p:nth-child(4){
+		margin-top: -5px;
+	}
+	.nes-a{
+		padding: 70px;
+	}
+	.nes-c{
+		padding: 30px 70px 80px;
+	}
+	.nes-b1{
+		margin-top: 30px;
+	}
+}
+@media (max-width: 991px){
+	.ne .news-a{
+		width: 25%;
+	}
+	.ne .news-b{
+		width: 73%;
+		padding: 5px 10px;
+		box-sizing: border-box;
+	}
+	.ne .news-b p:nth-child(4){
+		font-size: 12px;
+		margin-top: -4px;
+	}
+	.ne-a{
+		margin: 10px 0 50px;
+	}
+	.nes-a{
+		padding: 40px;
+	}
+	.nes-c{
+		padding: 30px 40px 50px;
+	}
+	.nes-b1{
+		margin-top: 30px;
+	}
+	.nes-c1{
+		right: 0;
+		transform:translate(0,0);
+	}
+}
+@media (max-width: 767px){
+	.ne{
+		margin-top: 0px;
+	}
+	.ne .news-a{
+		width: 32%;
+	}
+	.ne .news-b{
+		width: 66%;
+		padding: 5px 10px;
+		box-sizing: border-box;
+	}
+	.ne .news ul li{
+		padding-bottom: 15px;
+	}
+	.news ul li{
+		margin-bottom: 15px;
+	}
+	.news-b p:nth-child(2) {
+	    line-height: 22px;
+	    height: 22px;
+	}
+	.ne .news-b p:nth-child(4){
+		margin-top: -10px;
+	}
+	.ne-a ul li a{
+		font-size: 12px;
+		margin-right: 1px;
+		padding: 3px 8px;
+	}
+	.nes-c1{
+		padding: 5px 20px;
+		font-size: 14px;
+	}
+	.nes-a{
+		padding: 15px;
+		margin-top: 0px;
+	}
+	.nes-c{
+		padding: 15px 15px 50px;
+	}
+	.nes-b1{
+		margin-top: 15px;
+		line-height: 26px;
+	}
+	.nes-b p:first-child{
+		font-size: 18px;
+		margin-bottom: 0;
+	}
+	.nes-b p:nth-child(2){
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	.nes-b1 img{
+		max-width: 100%;
+		margin: 10px auto;
+	}
+	.nes-c1{
+		position: static;
+	}
+}
+@media (max-width: 375px){
+	.ne .news-a{
+		width: 34%;
+	}
+	.ne .news-b{
+		width: 64%;
+		padding: 5px 10px;
+		box-sizing: border-box;
+	}
+	.ne .news-b p:nth-child(3){
+		line-height: 23px;
+		font-size: 12px;
+	}
+}
+@media (max-width: 360px){
+	.ne .news-a{
+		width: 35%;
+	}
+	.ne .news-b{
+		width: 63%;
+		padding: 5px 10px;
+		box-sizing: border-box;
+	}
+	.ne .news-b p:nth-child(3){
+		line-height: 21px;
+		font-size: 12px;
+	}
+}
+@media (max-width: 320px){
+	.ne .news-a{
+		width: 37%;
+	}
+	.ne .news-b{
+		width: 61%;
+		padding: 5px 10px;
+		box-sizing: border-box;
+	}
+	.ne .news-b p:nth-child(3){
+		line-height: 21px;
+		font-size: 12px;
+	}
+	.ne-a ul li a{
+		font-size: 12px;
+		margin-right: 0px;
+		padding: 2px 6px;
+	}
+	.news-b p:nth-child(2){
+		font-size: 12px;
+		line-height: 19px;
+		height: 19px;
+	}
+	.news-b p:first-child {
+		font-size: 14px;
+	}
+}
